@@ -82,4 +82,4 @@ app.post("/productByKeys", (req, res)=>{
 //MONGO DATABASE CLIENT CONNECTON END :rocket:
 
 
-app.listen(port)
+app.listen(process.env.PORT || port)
