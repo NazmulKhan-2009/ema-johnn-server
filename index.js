@@ -20,6 +20,10 @@ app.use(cors())
 
 const port = 5000
 
+app.get("/" , (req, res)=>{
+  res.send("Hello DB Accessing perfectly ")
+})
+
 //FOR CHECKING EITHER ENV CONNECTED OR NOT :pick:
 // console.log(process.env.DB_USER);
 
